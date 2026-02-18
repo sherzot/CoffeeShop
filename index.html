@@ -1,0 +1,351 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/responseve.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+          integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>CoffeeShop</title>
+</head>
+<body>
+    <div class="page">
+        <header class="site-header">
+            <div class="nav-bar reveal">
+                <a class="brand" href="#">
+                    <img src="images/logo.png" alt="CoffeeShop logo">
+                    <span>CoffeeShop</span>
+                </a>
+                <nav class="nav-links">
+                    <a href="#home">Bosh sahifa</a>
+                    <a href="#story">Biz haqimizda</a>
+                    <a href="#menu">Menyu</a>
+                    <a href="#reservation">Bron</a>
+                    <a href="#news">Yangiliklar</a>
+                </nav>
+                <div class="nav-actions">
+                    <button class="icon-btn" aria-label="Search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    <button class="icon-btn" aria-label="Cart">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                    </button>
+                    <a class="btn primary" href="#reservation">Bron qilish</a>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero" id="home">
+                <div class="hero-content reveal">
+                    <p class="eyebrow">Kichik-partiya roast</p>
+                    <h1>Ertalabingizni yengil va xotirjam boshlang.</h1>
+                    <p class="lead">Sokin muhit, toza ta’m va klassik menyu. Ishga yoki dam olishga mos joy.</p>
+                    <div class="hero-actions">
+                        <a class="btn primary" href="#menu">Tatib ko‘rish</a>
+                        <a class="btn ghost" href="#story">Biz haqimizda</a>
+                    </div>
+                    <div class="hero-meta">
+                        <div class="meta-item">
+                            <strong>08:00 - 22:00</strong>
+                            <span>Har kuni</span>
+                        </div>
+                        <div class="meta-item">
+                            <strong>Markaz</strong>
+                            <span>Mehmonlar doim xush kelibsiz</span>
+                        </div>
+                        <div class="meta-item">
+                            <strong>Yangi</strong>
+                            <span>Haftalik qovuriladi</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-media reveal delay-1">
+                    <video playsinline autoplay muted loop poster="images/header-image.png">
+                        <source src="videos/1.mp4" type="video/mp4">
+                    </video>
+                    <img src="images/header-image.png" alt="Pouring coffee into a cup">
+                </div>
+            </section>
+
+            <section class="highlights">
+                <article class="highlight-card reveal delay-1">
+                    <img src="images/Rectangle-1.png" alt="Coffee beans">
+                    <h3>Signature ta’m</h3>
+                    <p>Balansli qovurish va toza yakun — har kungi ritm uchun.</p>
+                </article>
+                <article class="highlight-card reveal delay-2">
+                    <img src="images/Rectangle-2.png" alt="Latte art">
+                    <h3>Qo‘lda tayyorlanadi</h3>
+                    <p>To‘g‘ri ekstraksiya va silliq sut teksturasi.</p>
+                </article>
+                <article class="highlight-card reveal delay-3">
+                    <img src="images/Rectangle-3.png" alt="Coffee workspace">
+                    <h3>Sokin muhit</h3>
+                    <p>Iliq yorug‘lik, yoqimli musiqa va tinch ish joyi.</p>
+                </article>
+            </section>
+
+            <section class="story" id="story">
+                <div class="story-media reveal">
+                    <img class="story-main" src="images/Rectangle-4.png" alt="Coffee bar interior">
+                    <img class="story-top" src="images/Rectangle-2.png" alt="Coffee beans">
+                    <img class="story-bottom" src="images/Rectangle-1.png" alt="Pouring coffee">
+                </div>
+                <div class="story-content reveal delay-1">
+                    <p class="eyebrow">Bizning hikoya</p>
+                    <h2>Yangi hikoyani birga boshlaymiz</h2>
+                    <p>Bizda har bir piyola — e’tibor va did bilan tayyorlanadi. Mahalliy qovuruvchilar bilan ishlaymiz, ta’m doim bir xil va yangi bo‘lsin deb.</p>
+                    <a class="btn ghost" href="#menu">Menyuni ko‘rish</a>
+                </div>
+            </section>
+
+            <section class="products" id="menu">
+                <div class="section-title reveal">
+                    <p class="eyebrow">Mashhur mahsulotlar</p>
+                    <h2>Yoqqanini topasiz</h2>
+                </div>
+                <div class="product-grid">
+                    <article class="product-card reveal delay-1">
+                        <img src="images/Rectangle-5.png" alt="Brazil coffee beans">
+                        <h3>Brazil Santos</h3>
+                        <p class="price">$11.00</p>
+                        <a class="btn primary" href="#">Savatga qo‘shish</a>
+                    </article>
+                    <article class="product-card reveal delay-2">
+                        <img src="images/Rectangle-5.png" alt="House blend coffee">
+                        <h3>House Blend</h3>
+                        <p class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </p>
+                        <p class="price"><strong>$15.00</strong> / $18.00</p>
+                    </article>
+                    <article class="product-card reveal delay-3">
+                        <img src="images/Rectangle-5.png" alt="Espresso roast coffee">
+                        <h3>Espresso Roast</h3>
+                        <p class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </p>
+                        <p class="price"><strong>$14.00</strong> / $17.00</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="menu-section">
+                <div class="section-title reveal">
+                    <p class="eyebrow">Menyu</p>
+                    <h2>Mashhur ichimliklar</h2>
+                </div>
+                <div class="menu-grid">
+                    <div class="menu-item reveal delay-1">
+                        <img src="images/Bg.png" alt="Americano">
+                        <div>
+                            <h4>Americano</h4>
+                            <p>Klassik espresso va issiq suv.</p>
+                        </div>
+                        <span>$3.00</span>
+                    </div>
+                    <div class="menu-item reveal delay-2">
+                        <img src="images/Bg.png" alt="Cappuccino">
+                        <div>
+                            <h4>Cappuccino</h4>
+                            <p>Yumshoq ko‘pik va boy aroma.</p>
+                        </div>
+                        <span>$3.50</span>
+                    </div>
+                    <div class="menu-item reveal delay-3">
+                        <img src="images/Bg.png" alt="Latte">
+                        <div>
+                            <h4>Latte</h4>
+                            <p>Silliq sut va balansli espresso.</p>
+                        </div>
+                        <span>$3.80</span>
+                    </div>
+                    <div class="menu-item reveal delay-1">
+                        <img src="images/Bg.png" alt="Mocha">
+                        <div>
+                            <h4>Mocha</h4>
+                            <p>Shokolad ohanglari bilan espresso.</p>
+                        </div>
+                        <span>$4.20</span>
+                    </div>
+                    <div class="menu-item reveal delay-2">
+                        <img src="images/Bg.png" alt="Cold brew">
+                        <div>
+                            <h4>Cold brew</h4>
+                            <p>Sekin damlangan va yumshoq ta’m.</p>
+                        </div>
+                        <span>$3.50</span>
+                    </div>
+                    <div class="menu-item reveal delay-3">
+                        <img src="images/Bg.png" alt="Filter coffee">
+                        <div>
+                            <h4>Filter coffee</h4>
+                            <p>Toza ta’m, yengil tana.</p>
+                        </div>
+                        <span>$2.80</span>
+                    </div>
+                    <div class="menu-item reveal delay-1">
+                        <img src="images/Bg.png" alt="Macchiato">
+                        <div>
+                            <h4>Macchiato</h4>
+                            <p>Espresso va ozgina ko‘pik.</p>
+                        </div>
+                        <span>$3.20</span>
+                    </div>
+                    <div class="menu-item reveal delay-2">
+                        <img src="images/Bg.png" alt="Flat white">
+                        <div>
+                            <h4>Flat white</h4>
+                            <p>Microfoam va yumshoq yakun.</p>
+                        </div>
+                        <span>$3.90</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="testimonials">
+                <div class="section-title reveal">
+                    <p class="eyebrow">Sharhlar</p>
+                    <h2>Odamlar bu joyni yoqtiradi</h2>
+                </div>
+                <div class="testimonial-grid">
+                    <article class="testimonial-card reveal delay-1">
+                        <div class="testimonial-top">
+                            <img src="images/Rectangle-7.png" alt="Customer portrait">
+                            <p>"Yorug‘ va sokin joy, qahvasi zo‘r. Har bir detalga e’tibor bor."</p>
+                        </div>
+                        <div class="testimonial-bottom">
+                            <div>
+                                <h4>John Smit</h4>
+                                <span>Product designer</span>
+                            </div>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="testimonial-card reveal delay-2">
+                        <div class="testimonial-top">
+                            <img src="images/Rectangle-8.png" alt="Customer portrait">
+                            <p>"Pour-overlari yumshoq, musiqasi tinch. Bu yerda vaqt tez o‘tadi."</p>
+                        </div>
+                        <div class="testimonial-bottom">
+                            <div>
+                                <h4>Maria Kal</h4>
+                                <span>Photographer</span>
+                            </div>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="reservation" id="reservation">
+                <div class="map">
+                    <iframe src="https://goo.gl/maps/V9vNy62gDuYRNEcR6" title="CoffeeShop map"></iframe>
+                </div>
+                <div class="reservation-form reveal">
+                    <p class="eyebrow">Rezervatsiya</p>
+                    <h2>Stol bron qilish</h2>
+                    <form>
+                        <input type="text" placeholder="4 kishi">
+                        <input type="text" placeholder="02.25, 2026">
+                        <input type="text" placeholder="11:00 AM">
+                        <button type="submit" class="btn primary">Bron qilish</button>
+                    </form>
+                </div>
+            </section>
+
+            <section class="news" id="news">
+                <div class="section-title reveal">
+                    <p class="eyebrow">Yangiliklar</p>
+                    <h2>So‘nggi yangiliklar</h2>
+                </div>
+                <div class="news-grid">
+                    <article class="news-card reveal delay-1">
+                        <img src="images/Rectangle-10.png" alt="Coffee bar event">
+                        <div class="news-meta">
+                            <span><strong>By:</strong> Rasaline</span>
+                            <span>23.01.2026</span>
+                        </div>
+                        <h3>Barista bilan ideal ichimliklar</h3>
+                        <a href="#" class="news-link">Batafsil <i class="fa-solid fa-arrow-right"></i></a>
+                    </article>
+                    <article class="news-card reveal delay-2">
+                        <img src="images/Rectangle-11.png" alt="Coffee beans">
+                        <div class="news-meta">
+                            <span><strong>By:</strong> Rasaline</span>
+                            <span>23.01.2026</span>
+                        </div>
+                        <h3>Mavsumiy roastlar bilan tanishing</h3>
+                        <a href="#" class="news-link">Batafsil <i class="fa-solid fa-arrow-right"></i></a>
+                    </article>
+                    <article class="news-card reveal delay-3">
+                        <img src="images/Rectangle-12.png" alt="Coffee tasting">
+                        <div class="news-meta">
+                            <span><strong>By:</strong> Rasaline</span>
+                            <span>23.01.2026</span>
+                        </div>
+                        <h3>Yangi degustatsiya setlari</h3>
+                        <a href="#" class="news-link">Batafsil <i class="fa-solid fa-arrow-right"></i></a>
+                    </article>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <img src="images/logo.png" alt="CoffeeShop logo">
+                    <p>Yuqori sifatli qahva, sokin muhit va oddiy, tanish menyu.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Bosh sahifa</a>
+                    <a href="#story">Biz haqimizda</a>
+                    <a href="#menu">Menyu</a>
+                    <a href="#reservation">Bron</a>
+                    <a href="#news">Yangiliklar</a>
+                </div>
+                <div class="footer-subscribe">
+                    <p>Yangiliklardan xabardor bo‘ling</p>
+                    <div class="subscribe">
+                        <input type="text" placeholder="Emailingizni kiriting">
+                        <button class="btn primary" type="button">Obuna bo‘lish</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>CoffeeShop © 2026. Barcha huquqlar himoyalangan.</p>
+            </div>
+        </footer>
+    </div>
+    <script>
+        const heroVideo = document.querySelector(".hero-media video");
+        if (heroVideo) {
+            heroVideo.playbackRate = 0.85;
+        }
+    </script>
+</body>
+</html>
